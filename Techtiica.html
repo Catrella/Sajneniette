@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)file:///C:/Users/DSSB1/Desktop/Site/Techtiica.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>Sajneniette</title>
+		<link rel="stylesheet" href="./Techtiica_files/reset.css">
+		<link rel="stylesheet" href="./Techtiica_files/global.css">
+		<link rel="stylesheet" href="./Techtiica_files/slideshow1.css">
+		<script type="text/javascript" src="file:///C:/Users/DSSB1/Desktop/Site/Techtiica_files/js.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=true;">
+</head>
+<body>
+	<header>		<nav>
+				<div class="container">
+					<h1 id="brand">Sajneniette</h1>
+				    <ul>
+				    	<li><a href="./Techtiica.html#top">Accueil</a></li>
+				        <li><a href="./Techtiica.html#app">Nos produits</a></li>
+				        <li><a href="./Techtiica.html#team">Contact</a></li>
+				    </ul>
+				</div>
+			</nav>
+</header>
+<section id="top">
+	
+</section>
+<section id="slogan">
+	<p>L'histoire de l'art et de l'authenticité</p>
+	<br>
+</section>
+
+
+
+<section id="main-content">
+
+	<div class="column" id="intro">
+		<img src="./Techtiica_files/Team photo1.jpg" alt="Team photo">
+	<p id="intro"> La poterie de Sajnene
+				<br>
+				 <b id="techtiica">Des mains tous les secrets d’une poterie originale, particuliere et presque unique, concue et soigneusement modelée traditionnellement.</b> <br>La poterie des femmes de Sejnane, a trait à la pratique consistant à utiliser une technique particulière pour produire des artefacts en terre cuite pour la maison, notamment des ustensiles de cuisine, des poupées et des figurines animalières inspirées par l’environnement, sachant que les étapes de la production sont accomplies par des femmes, qui vendent également les poteries dans le village et sur le bord des routes avoisinantes, défiant la plupart du temps les intempéries.Il va sans rappeler que les femmes de Sejnane, qui occupent une place importante dans la communauté, extraient l’argile dans les lits des oueds de proximité, avant d’être débitée en mottes, concassée, purifiée, détrempée, pétrie et finalement façonnée.Une fois terminées, ces poteries en terre cuite sont décorées de motifs géométriques bicolores rappelant les tatouages traditionnels et les tissages berbères.Un travail dur, qui ne les récompense pas à la juste valeur de ce qu’elles font !
+	</div>
+	<div id="story" style=" max-width: 850px;">
+  <img class="mySlides" src="./Techtiica_files/team4.jpg" style="width:100%">
+  <img class="mySlides" src="./Techtiica_files/team2.jpg" style="width:100%">
+  <img class="mySlides" src="./Techtiica_files/team3.jpg" style="width:100%">
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="./Techtiica_files/team4.jpg" style="width:100%" onclick="currentDiv(1)">
+    </div>
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="./Techtiica_files/team2.jpg" style="width:100%" onclick="currentDiv(2)">
+    </div>
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="./Techtiica_files/team3.jpg" style="width:100%" onclick="currentDiv(3)">
+    </div>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+}
+</script>
+	 
+</div>
+</section>
+<br>
+
+<section id="app">
+	<div class="container" id="text">
+		<br>
+		<h1>Sajneniette</h1>
+			<p><b style="font-family: Raleway, sans-serif; font-size:  150%;">Votre boutique en ligne pour découvrir la poterie de Sejnane</b></p>
+		<br>
+		<div class="container" style="height: 500px;margin-top: 5%;">
+			<div id="descri">
+		<p>Sajneniette est votre boutique nationale en ligne qui vous permet d'acheter les poteries réalisées par les femmes de Sajnene et de les personaliser à votre gout mais aussi de vous former dans leur création et de vous confier le secret de leur technique de création qui remonte à la période néolithique en vous offrant des stages où ces femmes vous apprendront, accompagnées d'un céramiste spécialisé, les bases de la poterie de Sejnane.
+			<br>
+			<img src="./Techtiica_files/logo.png">
+		</p></div>
+		</div>
+		<br>
+	</div>
+		
+		
+		<!-- Slideshow container -->
+	<div class="slideshow-container">
+	<style>
+	* {box-sizing: border-box}
+	body {font-family: Verdana, sans-serif; margin:0}
+	.mySlides1, .mySlides2 {display: none}
+	img {vertical-align: middle;
+		margin-left:40%;}
+
+	/* Slideshow container */
+	.slideshow-container {
+	  max-width: 1000px;
+	  position: relative;
+	  margin: auto;
+	}
+
+	/* Next & previous buttons */
+	.prev, .next {
+	  cursor: pointer;
+	  position: absolute;
+	  top: 50%;
+	  width: auto;
+	  padding: 16px;
+	  margin-top: -22px;
+	  color: grey;
+	  font-weight: bold;
+	  font-size: 18px;
+	  transition: 0.6s ease;
+	  border-radius: 0 3px 3px 0;
+	  user-select: none;
+	}
+	.img{
+		margin-left: 40%;
+	}
+
+	/* Position the "next button" to the right */
+	.next {
+	  right: 0;
+	  border-radius: 3px 0 0 3px;
+	}
+
+	/* On hover, add a grey background color */
+	.prev:hover, .next:hover {
+	  background-color: #f1f1f1;
+	  color: black;
+	}
+	</style>
+
+
+	  <div class="mySlides1" style="display: block;">
+	    <img src="./Techtiica_files/prix1.png" style="width:100%; margin:0; position: relative;">
+	  </div>
+
+	  <div class="mySlides1" style="display: none;">
+	    <img src="./Techtiica_files/prix2.png" style="width:100%; margin:0; position: relative;">
+	  </div>
+	   <div class="mySlides1" style="display: none;">
+	    <img src="./Techtiica_files/prix3.png" style="width:100%; margin:0; position: relative;">
+	  </div>
+ 	 <div class="mySlides1" style="display: none;">
+	    <img src="./Techtiica_files/prix4.png" style="width:31%; margin-left: 39%; margin-top: 11%; position: relative;">
+	  </div>
+ 	 <div class="mySlides1" style="display: none;">
+	    <img src="./Techtiica_files/prix5.png" style="width:31%; margin-left: 39%; margin-top: 11%; position: relative;">
+	  </div>
+ 	 <div class="mySlides1" style="display: none;">
+	    <img src="./Techtiica_files/prix6.png" style="width:31%; margin-left: 39%; margin-top: 11%; position: relative;">
+	  </div>
+ 	 <div class="mySlides1" style="display: none;">
+	    <img src="./Techtiica_files/prix7.png" style="width:31%; margin-left: 39%; margin-top: 11%; position: relative;">
+	  </div>
+	  
+	 
+
+	  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+	</div>
+
+
+
+	<script>
+	var slideIndex = [1,1];
+	var slideId = ["mySlides1", "mySlides2"]
+	showSlides(1, 0);
+	showSlides(1, 1);
+
+	function plusSlides(n, no) {
+	  showSlides(slideIndex[no] += n, no);
+	}
+
+	function showSlides(n, no) {
+	  var i;
+	  var x = document.getElementsByClassName(slideId[no]);
+	  if (n > x.length) {slideIndex[no] = 1}    
+	  if (n < 1) {slideIndex[no] = x.length}
+	  for (i = 0; i < x.length; i++) {
+	     x[i].style.display = "none";  
+	  }
+	  x[slideIndex[no]-1].style.display = "block";  
+	}
+	</script>
+
+</section>
+
+<hr>
+<section id="team">
+	<br>
+	<h1>Passez votre commande maintenant!</h1>
+<style>
+* {box-sizing: border-box;}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+label{
+	color: white;
+}
+input[type=submit] {
+  background-color: #993333;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ff3333;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+</style>
+</head>
+
+<p style="color: white; margin-top: 30px;">Pour passez votre commande, connectez-vous. 
+</p>
+<br>
+<input type="submit" value="Connexion">
+
+<div class="container">
+	
+  <form action="/action_page.php">
+ 
+  	<p style="color: white; font-size:30px; ">Vous n'avez pas encore de compte, inscrivez-vous maintenant en remplissant ce formulaire:</p>
+  	<br>
+    <label for="fname">Nom et Prénom:</label>
+    <input type="text" id="fname" name="firstname" placeholder="Votre nom et prenom...">
+
+    <label for="lname">Email:</label>
+    <input type="text" id="lname" name="lastname" placeholder="example@example.ex">
+    <label for="lname">Numéro de téléphone</label>
+    <input type="text" id="lname" name="lastname" placeholder="+216 (votre num)">
+
+    <label for="country">Vous êtes:</label>
+    <select id="country" name="country">
+      <option value="australia">Individu ou famille</option>
+      <option value="canada">Société (hotel, maison d'hote, société de déco, etc)</option>
+      <option value="usa">Autre</option>
+    </select>
+
+    <input type="submit" value="Continuer">
+  </form>
+</div>
+</section>
+<br>
+<footer>
+			<div class="container">
+				<ul>
+					<li><img src="./Techtiica_files/facebook.svg" alt="Facebook"></li>
+					<li><img src="./Techtiica_files/twitter.svg" alt="Twitter"></li>
+					<li><img src="./Techtiica_files/instagram.svg" alt="Instagram"></li>
+					<li><img src="./Techtiica_files/linkedin.svg" alt="LinkedIn"></li>
+				</ul>
+				<p id="copyrights">Copyrights © 2019 Purpurina</p>
+			</div>
+		
+</footer>
+
+
+
+
+</body></html>
