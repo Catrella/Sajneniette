@@ -8,7 +8,7 @@
 }
 @font-face {
     font-family: Mother Day;
-    src: url(Mother Day.ttf);
+    src: url(./Mother Day.ttf);
 }
 body {color: #333; 
     font-family: 'SF-Pro-Display-Thin', sans-serif;
